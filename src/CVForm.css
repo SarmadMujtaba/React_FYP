@@ -1,0 +1,127 @@
+.cv-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .cv-form input[type="text"], 
+  .cv-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
+    resize: none;
+  }
+  
+  .cv-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .cv-form label {
+    font-weight: bold;
+  }
+  
+  .cv-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .cv-form button:hover {
+    opacity: 0.8;
+  }
+  
+  .cv-form .form-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .cv-form .form-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .heading {
+    margin-left: 5%;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .top-heading{
+    text-align: center;
+     font-size: 2.5em;
+      font-weight: bold;
+  }
+
+  .info {
+    margin-left: 5%;
+     font-size: 1.5em;
+  }
+  
+  .value {
+    margin-bottom: 5px; 
+    margin-left: 5.6%; 
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+
+  .cv-card{
+    justify-content: center;
+    width: max-content;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+
+  }
+
+  @media screen and (max-width: 795px) {
+    .heading {
+        margin-left: 5%;
+        font-size: 1em;
+        font-weight: bold;
+      }
+    
+      .top-heading{
+        text-align: center;
+         font-size: 2em;
+          font-weight: bold;
+      }
+    
+      .info {
+        margin-left: 5%;
+         font-size: 1em;
+      }
+      
+      .value {
+        margin-bottom: 5px; 
+        margin-left: 5.6%; 
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 1.2em;
+      }
+    
+      .cv-card{
+        justify-content: center;
+        width: max-content;
+        background-color: white;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+    
+      }
+  }
+  

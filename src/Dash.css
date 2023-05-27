@@ -1,0 +1,464 @@
+.login-input:focus {
+    outline: none;
+    border-bottom: 2px solid #141e25;
+  }
+  
+  .login-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .login-button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #243642;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    /* padding-top: 4%; */
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #005ea8;
+  }
+  
+  .login-button:active {
+    background-color: #004d91;
+  }
+
+
+  .active {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #243642;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .active:hover {
+    background-color: #005ea8;
+  }
+  
+  .active:active {
+    background-color: #004d91;
+  }
+
+
+  .withdraw {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #6d1919;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .withdraw:hover {
+    background-color: #fd0000;
+  }
+  
+  .withdraw:active {
+    background-color: #fd0000;
+  }
+
+  .deactive {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: black;
+    background-color: #afafaf;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .header {
+    background-color: #243642;
+    position: sticky;
+    top: 0;
+    width: 80%;
+    color: white;
+    margin-left: 20%;
+    font-weight: bold;
+  }
+
+  .title{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    height: 5%;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+  .sidebar {
+    background-color: #141e25;
+    height: 100vh;
+    width: 20%;
+    padding: 20px;
+    position: fixed;
+    border: 1px solid black;
+    box-shadow: 4px 0 4px rgba(74, 72, 72, 0.916); 
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5%;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    padding-top: 3%;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .sidebar .active-link {
+    color: #007aff;
+  }
+
+
+  .file-input {
+    /* Hide the default file input appearance */
+    display: none;
+  }
+  
+  .file-input-label {
+    /* Customize the label appearance */
+    background-color: #004d91;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .file-input-label:hover {
+    /* Add hover effect to the label */
+    background-color: #0056b3;
+  }
+  
+
+  .sidbar-button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #141e25;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    /* padding-top: 4%; */
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .sidbar-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .sidbar-button:active {
+    background-color: white;
+  }
+
+  .sidbar-button-logout {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #6d1919;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    /* padding-top: 4%; */
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .sidbar-button-logout:hover {
+    background-color: #fd0000;
+
+  }
+  
+  .sidbar-button-logout:active {
+    background-color: #fd0000;
+  }
+
+  /*  organization Sidebar */
+
+  
+  .org-sidebar {
+    background-color: #141e25;
+    height: 100vh;
+    width: 20%;
+    padding: 20px;
+    position: fixed;
+    border: 1px solid black;
+    box-shadow: 4px 0 4px rgba(74, 72, 72, 0.916); 
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .org-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5%;
+  }
+  
+  .org-sidebar li {
+    margin-bottom: 10px;
+    padding-top: 3%;
+  }
+  
+  .org-sidebar a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+
+  .org-sidbar-button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #141e25;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    /* padding-top: 4%; */
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .org-sidbar-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .org-sidbar-button:active {
+    background-color: white;
+  }
+
+  .org-sidbar-button-logout {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #6d1919;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    text-align: center;
+    /* padding-top: 4%; */
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .org-sidbar-button-logout:hover {
+    background-color: #fd0000;
+
+  }
+  
+  .org-sidbar-button-logout:active {
+    background-color: #fd0000;
+  }
+
+
+
+
+
+  /* @media screen and (max-width: 795px) {
+    .header{
+      display: none;
+    }
+    .sidebar {
+      width: 100%;
+      padding: 1px;
+      height: 60%;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      box-shadow: 0 4px 4px rgba(74, 72, 72, 0.916);
+    }
+
+    
+    .sidebar a {
+      font-size:small;
+      height: 30px;
+      margin-top: -4%;
+    }
+    
+    .sidbar-button {
+
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #141e25;
+      border: none;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      text-align: center;
+    
+      border: 1px solid white;
+      transition: all 0.1s ease-in-out;
+
+
+      font-size:small;
+      height: 30px;
+      width: 70%;
+      margin-right: 10%;
+    }
+
+    .sidbar-button-logout {
+      font-size:small;
+      height: 30px;
+      margin-top: 1%;
+      width: 70%;
+    }
+  } */
+ 
+
+
+
+  
+  @media screen and (max-width: 795px) {
+    .header{
+      display: none;
+    }
+    .sidebar {
+      width: 100%;
+      padding: 1px;
+      height: 20%;
+      box-shadow: 0 4px 4px rgba(74, 72, 72, 0.916);
+      position: relative;
+    }
+
+    .sidebar a {
+      font-size:smaller;
+      height: 30px;
+      margin-top: -4%;
+      display: inline-block;
+      width: 14.5%;
+      margin-bottom: 5px;
+    }
+    
+    
+    .sidbar-button {
+      font-size:small;
+      height: 30px;
+      width: 100%;
+      display: inline;
+      margin-right: 0.7%;
+      margin-left: 0.7%;
+      font-style: normal;
+      padding-bottom: 5px;
+    }
+
+    .sidbar-button-logout {
+      font-size:small;
+      height: 30px;
+      margin-left: 0.7%;
+      width: 20%;
+      display: inline;
+      padding-bottom: 5px;
+    }
+
+
+    /*  organization sidebar button */
+
+    .org-sidebar {
+      width: 100%;
+      padding: 1px;
+      height: 20%;
+      box-shadow: 0 4px 4px rgba(74, 72, 72, 0.916);
+      position: relative;
+    }
+
+    .org-sidebar a {
+      font-size:smaller;
+      height: 30px;
+      margin-top: -4%;
+      display: inline-block;
+      width: 18%;
+      margin-bottom: 5px;
+    }
+
+
+    .org-sidbar-button {
+      font-size:small;
+      height: 30px;
+      width: 100%;
+      display: inline;
+      margin-right: 0.7%;
+      margin-left: 0.7%;
+      font-style: normal;
+      padding-bottom: 5px;
+    }
+
+    .org-sidbar-button-logout {
+      font-size:small;
+      height: 30px;
+      margin-left: 0.7%;
+      width: 20%;
+      display: inline;
+      padding-bottom: 5px;
+    }
+   
+  }
+
+
+
+
+
